@@ -1,0 +1,21 @@
+body{
+    background-color: #484660;
+}
+.box{
+    width: 1170px;
+    display: flex;
+    height: 70vh;
+    margin: 3% auto 0;
+}
+.box__item{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 500ms cubic-bezier(.14, .69, .93, 1);
+}
+.box__item:hover{
+    flex-basis: 65vw;
+}
